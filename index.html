@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/live.js"></script>
     <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/responsive.css"/>
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <title>Rizki Ramadhan</title>
 </head>
 <body>
     <header>
-        <nav class="navigasi">
+        <nav>
             <span class="logo">Rizki Ramadhan's Profile</span>
-            <ul>
+            <a onClick="showmenu()" id="menubar">☰</a>
+            <ul id="navigasi">
                 <a href="#profil"><li>Profil</li></a>
                 <a href="#pendidikan"><li>Pendidikan</li></a>
                 <a href="#pengalaman"><li>Pengalaman Kerja</li></a>
@@ -22,7 +24,7 @@
         </nav>
     </header>
     <main>
-        <header class="headerContent">
+        <header id="head" class="headerContent">
             <figure> 
                 <img class="fotoProfil" src="assets/images/profile.jpg">
             </figure>
@@ -42,7 +44,7 @@
         <article id="pendidikan">
             <section>
                 <div class="judul">
-                    <h1>Pendidikan / Education</h1>
+                    <h1>Pendidikan | Education</h1>
                 </div>
                 <content class="kontenPendidikan">
                     <div class="boxPendidikan">
@@ -76,7 +78,7 @@
         <article id="pengalaman">
             <section>
                 <div class="judul">
-                    <h1>Pengalaman / Experience</h1>
+                    <h1>Pengalaman | Experience</h1>
                 </div>
                 <content class="kontenPengalaman">
                     <img class="iconPengalaman" src="assets/images/back.png">
@@ -107,7 +109,7 @@
         </article>
         <article id="pelatihan">
             <section>
-                <h1 class="judul pelatihan">Pelatihan / Course</h1>
+                <h1 class="judul pelatihan">Pelatihan | Course</h1>
             </section>
             <content class="kontenPelatihan">
                 <div class="boxPelatihan">
@@ -116,7 +118,7 @@
                         <img class="logoPelatihan" src="assets/images/dts.jpg">
                     </figure>
                     <h1>Web Programming (HTML, CSS, Javascript)</h1>
-                    <h4>Digitalent Schoolarship (DTS) Kominfo</h4>
+                    <h4>Digitalent Schoolarship Kominfo</h4>
                     <p>11 Juni - 31 Juli 2020</p>
                     <p style="float: right"><i>Klik untuk lihat sertifikat</i></p>
                     </a>
@@ -128,7 +130,7 @@
                     </figure>
                     <h1>Front End Web Developer</h1>
                     <h4>Dicoding Online Course</h4>
-                    <p>11 Juni - 31 Juli 2020</p>
+                    <p>07 Agustus - 15 Agustus 2020</p>
                     <p style="float: right"><i>Klik untuk lihat sertifikat</i></p>
                     </a>
                 </div>
@@ -142,7 +144,7 @@
                     </figure>
                     <h1>Front End (React) Web Developer</h1>
                     <h4>Sanbercode Online Course</h4>
-                    <p>11 Juni - 31 Juli 2020</p>
+                    <p>24 Agustus - 18 September 2020</p>
                     <p style="float: right"><i>Klik untuk lihat sertifikat</i></p>
                     </a>
                 </div>
@@ -179,8 +181,23 @@
     </main>
     <footer>
 
-        &copy; Profil Rizki Ramadhan, 2020 | <i class="fa fa-envelope"></i>rzk.ramadhan@gmail.com |
-        <i class="fa fa-whatsapp"></i>+62 87748450899
+        &copy; Profil Rizki Ramadhan, 2020 | <span class="enter"> <i class="fa fa-envelope"></i>rzk.ramadhan@gmail.com |
+        </span> <span class="enter"><i class="fa fa-whatsapp"></i>+62 87748450899 </span>
     </footer>
+
+    <script>
+        var menu = document.getElementById("navigasi")
+        var sesuai = document.getElementById("head")
+        function showmenu(){
+            if(menu.style.display != "block"){
+                menu.style.display = "block"
+                sesuai.style.paddingTop = "14em"                
+            } else {
+                menu.style.display = "none"
+                sesuai.style.paddingTop = "0em"
+            }
+        }
+        
+    </script>
 </body>
 </html>

@@ -1,0 +1,172 @@
+@media only screen and (max-width: 360px){
+    body{
+        width: 360px;
+    }
+    nav {
+        position: sticky;
+    }
+    nav ul{
+        width: 360px;
+        display: none
+    }
+    nav{
+        display: block;
+        width: 100%;
+    }
+    nav ul a{
+        padding: 0;
+        opacity: 1;
+    }
+    nav ul li{
+        text-align: center;
+        background-color: #204051;
+        color: white;
+    }
+    nav ul a:hover{
+        border: none;
+        outline: none;
+    }
+    .logo{
+        width: 30%;
+        margin-right: 3.5em;
+        font-size: 1.2em;
+        position: relative;
+        bottom: 0.3em;
+    }
+    #menubar{
+        display: inline-block;
+        color: #204051;
+        font-size: 2em;
+        padding-top: 0.15em;
+    }
+    .headerContent{
+        background-position: left 35% top 20%;
+        display: block;
+        height: 600px;
+    }
+    .fotoProfil{
+        width: 12em;
+        margin-top: 7em;
+        margin-bottom: 2em;
+    }
+    .detailProfil{
+        padding: 2em;
+        text-align: center;
+    }
+    .detailProfil h1{
+        font-size: 2em;
+        margin-bottom: 0.2em;
+    }
+    .detailProfil p{
+        font-size: 0.8em;
+    }
+    .socialMedia{
+        margin: 0;
+        margin-top: 1em;
+        padding: 0;
+    }
+    .sosialmedia{
+        margin: 0 0.1em;
+        margin-top: 1em;
+    }
+    article{
+        padding-top: 2em;
+    }
+    .judul{
+        font-size: 1.9em;
+        width: 80%;
+    }
+    .kontenPendidikan{
+        display: block;
+        padding: 0;
+        margin: 0 1em;
+    }
+    .boxPendidikan{
+        width: 360px;
+        width: 100%;
+        margin-bottom: 2em;
+        padding: 0em 1em;
+    }
+    .label{
+        bottom: 0em;
+        margin: 0 auto;
+        margin-bottom: 1.2em;
+    }
+    .iconPendidikan{
+        width: 8em;
+    }
+    .boxPendidikan h1{
+        font-size: 1.6em;
+    }
+    .boxPendidikan p{
+        font-size: 0.8em;
+    }
+    .tombol{
+        margin: 1em 0em;
+    }
+    .kontenPengalaman{
+        margin: 0;
+        padding: 0;
+    }
+    .boxPengalaman{
+        padding: 1em;
+        margin: 0;
+        width: 330px;
+    }
+    .boxPengalaman:hover{
+        position: relative;
+        padding-left: 1em;
+    }
+    .iconPengalaman{
+        display: none;
+    }
+    .boxPengalaman h1{
+        font-size: 1.1em;
+    }
+    .boxPengalaman h3{
+        font-size: 0.8em;
+    }
+    .boxPengalaman p{
+        font-size: 0.7em;
+    }
+    .kontenPelatihan{
+        display: grid;
+        padding: 1em;
+    }
+    .boxPelatihan:hover{
+        bottom: 0;
+    }
+    .boxPelatihan{
+        width:auto;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    .boxPelatihan h1{
+        font-size: 1.3em;
+    }
+    .boxPelatihan p{
+        margin-bottom: 1em;
+    }
+    .iconPelatihan{
+        width: 10em;
+    }
+    .boxBantuan{
+        width: auto;
+        padding: 2em;
+        padding-right: 2em;
+    }
+    .inputform{
+        width: auto;
+    }
+    .inputform input, textarea{
+        width: auto;
+        width: 90%;
+    }
+    .kirim{
+        margin: 0 auto;
+        display: block;
+    }
+    .enter{
+        display: block;
+    }
+}

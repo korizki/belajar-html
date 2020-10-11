@@ -6,9 +6,11 @@
     font-weight: 400;
     scroll-behavior: smooth;
 }
-body{
-    
+body{    
     background-color: #f2f2f2;
+}
+#menubar{
+    display: none;
 }
 nav {
     font-size: 0.9em;
