@@ -51,7 +51,7 @@ nav ul a:hover{
     border-bottom: 0.3em solid #3b6978;
 }
 .headerContent{
-    background-image: url("/images/header.jpg");
+    background-image: url("../images/header.jpg");
     width: 100%;
     background-position: left 10% bottom 40% ;
     background-repeat: none;
