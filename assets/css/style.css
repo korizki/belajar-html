@@ -6,8 +6,12 @@
     font-weight: 400;
     scroll-behavior: smooth;
 }
+html{
+    display: block;
+}
 body{    
     background-color: #f2f2f2;
+    width: auto;
 }
 #menubar{
     display: none;
@@ -83,7 +87,7 @@ nav ul a:hover{
     margin-top: 1em;
     color: #204051;
     padding: 0.3em;
-    margin-left: 12em;
+    padding-left: 12em;
     width: 400px;
     text-align: left;
 }

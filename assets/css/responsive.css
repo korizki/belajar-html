@@ -1,6 +1,7 @@
 @media only screen and (max-width: 400px){
     body{
         width: auto;
+        position: relative;
     }
     nav {
         position: sticky;
@@ -36,7 +37,6 @@
     #menubar{
         display: inline-block;
         color: #204051;
-        margin-left: 1em;
         font-size: 2em;
         padding-top: 0.15em;
     }
@@ -47,8 +47,13 @@
     }
     .fotoProfil{
         width: 12em;
-        margin-top: 7em;
+        float: none;
+        margin: 0 auto;
+        margin-top: 5em;
         margin-bottom: 2em;
+    }
+    .fprofil{
+        text-align: center;
     }
     .detailProfil{
         padding: 2em;
@@ -62,13 +67,14 @@
         font-size: 0.8em;
     }
     .socialMedia{
-        margin: 0;
+        margin: 0 auto;
         margin-top: 1em;
         padding: 0;
+        width: auto;
     }
     .sosialmedia{
-        margin: 0 0.1em;
-        margin-top: 1em;
+        margin: 0 0.07em;
+        
     }
     article{
         padding-top: 2em;
@@ -112,7 +118,7 @@
     .boxPengalaman{
         padding: 1em;
         margin: 0;
-        width: 330px;
+        width: auto;
     }
     .boxPengalaman:hover{
         position: relative;
